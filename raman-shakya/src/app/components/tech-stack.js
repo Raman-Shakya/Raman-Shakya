@@ -17,7 +17,7 @@ const TechStack = ({data, onLanguageChange}) => {
     setAllLanguages(tempSet);
     setSelectedLanguages(new Set(tempSet));
     onLanguageChange(Array.from(tempSet));
-  }, [data]);  
+  }, [data, onLanguageChange]);  
 
   const toggleLanguage = (e, language) => {
     e.preventDefault();
@@ -36,6 +36,7 @@ const TechStack = ({data, onLanguageChange}) => {
           return <Image
             src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${languageParsed}/${languageParsed}-original.svg`}
             className={ selectedLanguages.has(language) && styles.selected }
+            key={index}
             width={100}
             height={100}
             alt='programming-language'
