@@ -1,0 +1,26 @@
+.wrapper {
+    background: var(--background);
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: var(--max-width);
+    width: 90%;
+    margin: auto;
+}
+
+.heading {
+    font-weight: normal;
+}
+
+.heading span {
+    color: var(--complement-color);
+}
+
+
+.project_wrapper {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    /* background: var(--dark-background); */
+    background: linear-gradient(to left, var(--transparent-background), var(--dark-background));
+    margin: 3rem 0;
+    padding: 1rem 0;
+    border-radius: var(--default-border-radius);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 1em auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 4em;
+    height: 4em;
+    filter: saturate(0);
+}
+.selected {
+    filter: saturate(1) !important;
+}
