@@ -19,7 +19,16 @@
     width: 4em;
     height: 4em;
     filter: saturate(0);
+    cursor: pointer;
+    transition: all 0.1s;
 }
 .selected {
     filter: saturate(1) !important;
+}
+
+.container img:not(.selected):hover {
+    filter: saturate(0.5);
+}
+.selected:hover {
+    transform: scale(1.03);
 }

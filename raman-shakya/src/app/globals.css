@@ -6,6 +6,7 @@
   --max-width: 800px;
   --alpha-dark-background: #070F2699;
   --default-border-radius: 10px;
+  --margin: 4em;
 }
 
 * {
@@ -32,5 +33,11 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --margin: 2em;
   }
 }

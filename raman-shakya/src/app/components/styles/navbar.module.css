@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem var(--margin);
     backdrop-filter: blur(20px);
     background: var(--alpha-dark-background);
     z-index: 100;

@@ -9,7 +9,7 @@
 
 .container {
     max-width: var(--max-width);
-    width: 90%;
+    width: calc(100% - 2 * var(--margin));
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,4 +42,16 @@
     border: 1.4em solid var(--transparent-background);
     border-radius: 50%;
     object-fit: cover;
+}
+
+
+/* RESPONSIVE VIEW */
+@media (max-width: 590px) {
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: fit-content;
+        padding: 200px 0;
+        gap: 4em;
+    }
 }
