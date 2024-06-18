@@ -17,7 +17,7 @@ const TechStack = ({data, onLanguageChange}) => {
     setAllLanguages(tempSet);
     setSelectedLanguages(new Set(tempSet));
     onLanguageChange(Array.from(tempSet));
-  }, [data, onLanguageChange]);  
+  }, [data]);
 
   const toggleLanguage = (e, language) => {
     e.preventDefault();

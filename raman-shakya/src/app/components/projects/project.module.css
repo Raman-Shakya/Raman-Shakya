@@ -39,7 +39,7 @@
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1.2em 1.5em;
     z-index: 100;
     overflow-wrap: break-word;
     color: var(--complement-color);

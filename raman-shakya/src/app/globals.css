@@ -40,4 +40,7 @@ a {
   :root {
     --margin: 2em;
   }
+  body {
+    font-size: 0.8rem;
+  }
 }

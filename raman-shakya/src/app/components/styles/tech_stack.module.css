@@ -9,10 +9,23 @@
 
 .container {
     max-width: var(--max-width);
-    margin: 1em auto;
+    margin: auto;
+    padding: 1em 0;
     width: 90%;
     display: flex;
     justify-content: space-between;
+    gap: 1em;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.container::-webkit-scrollbar {
+    height: 6px;
+}
+.container::-webkit-scrollbar-track {
+    background: var(--background);
+}
+.container::-webkit-scrollbar-thumb {
+    background: #9999cc;
 }
 
 .container img {
@@ -30,5 +43,5 @@
     filter: saturate(0.5);
 }
 .selected:hover {
-    transform: scale(1.03);
+    transform: scale(0.9);
 }

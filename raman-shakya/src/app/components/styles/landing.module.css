@@ -47,11 +47,16 @@
 
 /* RESPONSIVE VIEW */
 @media (max-width: 590px) {
+    .wrapper {
+        height: fit-content;
+    }
     .container {
         flex-direction: column-reverse;
         justify-content: center;
-        height: fit-content;
-        padding: 200px 0;
+        padding: 130px 0;
         gap: 4em;
     }
+    .container div {
+        max-width: fit-content;
+    }    
 }

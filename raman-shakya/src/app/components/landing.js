@@ -11,7 +11,7 @@ const Landing = () => {
             <div>
                 <p>Hello There!</p>
                 <h1 className={ styles.heading }><span>Raman</span> here</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
+                <p>A passionate developer focused on innovation, bringing creative, versatile solutions to every project.</p>
             </div>
             <div>
                 <div className={ styles.profile_container }>

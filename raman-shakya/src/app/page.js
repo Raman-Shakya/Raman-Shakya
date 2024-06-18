@@ -1,3 +1,4 @@
+import Copyright from "./components/copyright";
 import Landing from "./components/landing";
 import NavBar from "./components/navbar";
 import ProjectWrapper from "./components/projects/project-wrapper";
@@ -9,6 +10,7 @@ export default function Home() {
       <NavBar />
       <Landing />
       <ProjectWrapper />
+      <Copyright />
     </main>
   );
 }
