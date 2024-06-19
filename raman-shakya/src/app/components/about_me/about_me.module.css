@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.header {
+    font-weight: normal;
+}
+.header span {
+    color: var(--complement-color);
+}
+
+/* CONTAINER */
+.container {
+    background: var(--dark-background);
+    padding: 2em 40px;
+    margin-top: 3em;
+    border-radius: var(--default-border-radius);;
+}
+
+.container span {
+    display: inline-block;
+    width: 6em;
+    color: var(--complement-color);
+}

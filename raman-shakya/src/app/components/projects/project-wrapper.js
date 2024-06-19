@@ -6,18 +6,37 @@ import styles from "./project_wrapper.module.css"
 import ProjectCard from './project'
 import axios from 'axios';
 import TechStack from '../tech-stack';
+import Preloader from '../preloader/preloader';
 
 const ProjectWrapper = () => {
     const [projects, setProjects] = useState([]);
     const [languages, setLanguages] = useState([]);
-    
+    const [loading, setLoading] = useState(true);
+    // const [scrollTop, setScrollTop] = useState(0);
+
     useEffect(() => {
         axios.get('https://api.github.com/users/Raman-Shakya/repos')
             .then(response => {
                 setProjects(response.data.filter(a=>a.fork===false));
+                setLoading(false);
             })
-            .catch(err => console.error(err));
+            .catch(err => {
+                console.error(err)
+                setLoading(false);
+            });
+        
+        // document.addEventListener('scroll', scrollEvent);
+        // return () => {
+        //     document.removeEventListener('scroll', scrollEvent);
+        // }
     }, []);
+
+    // const scrollEvent = (e) => {
+    //     // console.dir(e.target.scrollingElement.scrollTop);
+    //     setScrollTop(e.target.scrollingElement.scrollTop);
+    // }
+
+    if (loading) return <Preloader />
 
     return (
         <div className={ styles.wrapper }>

@@ -32,7 +32,7 @@ const ProjectCard = ({ data }) => {
                     </div>
                     <div>
                         {data.html_url && <a href={ data.html_url } target='blank'>Code</a> }
-                        {data.demo && <a href={ data.demo } target='blank'>Demo</a> }
+                        {data.homepage && <a href={ data.homepage } target='blank'>Demo</a> }
                     </div>
                 </div>
             </div>

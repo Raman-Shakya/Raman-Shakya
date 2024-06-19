@@ -1,3 +1,4 @@
+import AboutMe from "./components/about_me/about_me";
 import Copyright from "./components/copyright";
 import Landing from "./components/landing";
 import NavBar from "./components/navbar";
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <NavBar />
       <Landing />
+      {/* <AboutMe /> */}
       <ProjectWrapper />
       <Copyright />
     </main>

@@ -57,9 +57,11 @@
     font-weight: bold;
     padding: 0.2em 0.5em;
     transition: all 0.2s;
+    margin-right: 1em;
+    border-radius: 4px;
 }
 
 .information_container a:hover {
-    background: transparent;
-    color: var(--complement-color);
+    background: #e6d4a1;
+    color: #030818;
 }
