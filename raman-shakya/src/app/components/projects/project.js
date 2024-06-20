@@ -14,6 +14,28 @@ const ProjectCard = ({ data }) => {
         else setLanguage(data.language.toLowerCase());
     }, [data]);
 
+    function getParsedDeltaTime(deltaTime) {
+        function getDeltaTime(deltaTime) {
+            const deltaYears = Math.floor(deltaTime / (1000*60*60*24*365))
+            const deltaMonths = Math.floor(deltaTime / (1000*60*60*24*30))
+            const deltaDays = Math.floor(deltaTime / (1000*60*60*24));
+            const deltaHours = Math.floor(deltaTime / (1000*60*60));
+            const deltaMinutes = Math.floor(deltaTime / (1000*60));
+            const deltaSeconds = Math.floor(deltaTime / (1000));
+            
+            if (deltaYears!==0) return [deltaYears, "y"]
+            if (deltaMonths!==0) return [deltaMonths, "mo"]
+            if (deltaDays!==0) return [deltaDays, "d"]
+            if (deltaHours!==0) return [deltaHours,"h"]
+            if (deltaMinutes!==0) return [deltaMinutes, "m"]
+            return [deltaSeconds, "s"]
+        }
+        let [delta, label] = getDeltaTime(new Date() - new Date(deltaTime));
+        return delta + " " + label;
+        // if (delta===1) return delta + " " + label + " ago"
+        // return delta + " " + label + "s ago"
+    }
+
     return (
         <div className={ styles.container }>
             <div className={ styles.image_container }>
@@ -28,6 +50,9 @@ const ProjectCard = ({ data }) => {
                 <div className={ styles.information_container} >
                     <div>
                         <h1 className={ styles.title }>{data.name}</h1>
+                        <div className={ styles.date }>
+                            { getParsedDeltaTime(data.created_at) }
+                        </div>
                         {data.language}
                     </div>
                     <div>

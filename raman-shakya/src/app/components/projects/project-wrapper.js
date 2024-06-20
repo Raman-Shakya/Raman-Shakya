@@ -17,7 +17,8 @@ const ProjectWrapper = () => {
     useEffect(() => {
         axios.get('https://api.github.com/users/Raman-Shakya/repos')
             .then(response => {
-                setProjects(response.data.filter(a=>a.fork===false));
+                // console.log(response.data.sort((a,b) => a.created_at < b.created_at ? -1 : 1))
+                setProjects(response.data.filter(a=>a.fork===false).sort((a,b) => a.created_at > b.created_at ? -1 : 1));
                 setLoading(false);
             })
             .catch(err => {

@@ -65,3 +65,17 @@
     background: #e6d4a1;
     color: #030818;
 }
+
+.information_container div {
+    max-width: calc(100% - 4rem);
+}
+
+.date {
+    position: absolute;
+    top: 0rem;
+    right:  0rem;
+    padding: 0.5em 0.7em;
+    width: 4.3rem;
+    text-align: right;
+    background: var(--dark-background);
+}
