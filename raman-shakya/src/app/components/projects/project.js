@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./project.module.css";
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const ProjectCard = ({ data }) => {
     const [language, setLanguage] = useState();
@@ -37,7 +38,17 @@ const ProjectCard = ({ data }) => {
     }
 
     return (
-        <div className={ styles.container }>
+        <motion.div
+            initial= {{ opacity: 0.4, scale: 0.7 }}
+            whileInView={ {
+                opacity: 1, scale: 1,
+            } }
+            viewport={{
+                margin: "300% 0px 0px 0px",
+            }}
+            transition={{ type: "spring", stiffness: 50, damping: 9 }}
+            className={ styles.container }
+        >
             <div className={ styles.image_container }>
                 {/* <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg'/> */}
                 <Image
@@ -61,7 +72,7 @@ const ProjectCard = ({ data }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

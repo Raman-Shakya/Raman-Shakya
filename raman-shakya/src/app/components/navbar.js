@@ -1,12 +1,29 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import styles from "./styles/navbar.module.css"
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { useMotionValueEvent, motion, useScroll, useTransform } from 'framer-motion'
 
 const NavBar = () => {
+  const { scrollY } = useScroll();
+  const [scrolled, setScrolled] = useState();
+
+  useMotionValueEvent(scrollY, "change", () => {
+    setScrolled(scrollY.current)
+  });
+
+  
+
   return (
-    <div className={ styles.wrapper }>
+    <motion.div 
+      className={ [styles.wrapper, scrolled ? styles.scrolled : ""].join(" ") }
+      style={{
+        backdropFilter: `blur(${Math.min(scrolled * 20 / 400, 20)}px)`,
+      }}
+    >
         <div className={ styles.heading }>
             Raman Shakya
         </div>
@@ -16,7 +33,7 @@ const NavBar = () => {
             <Link href="#">My Projects</Link>
             <Link href="#">Contact Me</Link>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

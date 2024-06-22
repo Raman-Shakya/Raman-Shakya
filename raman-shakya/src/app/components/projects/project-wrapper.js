@@ -7,6 +7,7 @@ import ProjectCard from './project'
 import axios from 'axios';
 import TechStack from '../tech-stack';
 import Preloader from '../preloader/preloader';
+import { motion } from 'framer-motion';
 
 const ProjectWrapper = () => {
     const [projects, setProjects] = useState([]);
@@ -42,9 +43,25 @@ const ProjectWrapper = () => {
     return (
         <div className={ styles.wrapper }>
             <div className={ styles.container }>
-                <h1 className={ styles.heading }>My <span>Projects</span></h1>
+                <motion.h1 
+                    initial={{ marginLeft: "100%" }}
+                    whileInView={{ marginLeft: 0 }}
+                    viewport={{ once: true }}
+                    className={ styles.heading }
+                    transition={{ type: "spring", stiffness: 100, damping: 14 }}
+                >My <span>Projects</span></motion.h1>
                 
-                <TechStack data={projects} onLanguageChange={(languages) => setLanguages(languages)}/>
+                <motion.div
+                    initial={{ translateX: "-100%"}}
+                    whileInView={{ translateX: 0}}
+                    viewport={{ once: true }}
+                    transition={{ type: "spring", stiffness: 100, damping: 14 }}
+                >
+                    <TechStack
+                        data={projects} 
+                        onLanguageChange={(languages) => setLanguages(languages)}
+                    />
+                </motion.div>
                 
                 <div className={ styles.project_wrapper }>
                     { projects && projects.map((project, index) => 
