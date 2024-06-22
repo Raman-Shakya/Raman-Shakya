@@ -54,7 +54,7 @@ export default function Particle() {
                   number: {
                     density: {
                       enable: true,
-                      area: 2000,
+                      area: 4000,
                     },
                     value: 80,
                   },
@@ -65,7 +65,7 @@ export default function Particle() {
                     type: "circle",
                   },
                   size: {
-                    value: { min: 1, max: 4 },
+                    value: { min: 1, max: 3 },
                   },
                 },
                 interactivity: {
