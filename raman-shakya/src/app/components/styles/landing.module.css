@@ -19,6 +19,7 @@
 /* LEFT DESCRIPTION */
 .container div {
     max-width: 18.5rem;
+    position: relative;
 }
 
 .heading {
