@@ -5,9 +5,22 @@
 
 I am a Full Stack developer, problem solving enthusiast with various expertise in Python, React, Express, Node and many more.
 
-[![](https://visitcount.itsvg.in/api?id=Raman-Shakya&icon=0&color=0)](https://visitcount.itsvg.in)
+<img src="https://komarev.com/ghpvc/?username=Raman-Shakya&label=Profile%20views&color=012d4e&style=for-the-badge" alt="Kiran1689" style="padding-right:20px;" />
+
 
 ---
+
+## Tech Stack
+<div style="display: flex; gap: 20px;">
+    <img height="60px" src="./assets/images/techStack/python.png">
+    <img height="60px" src="./assets/images/techStack/js.png">
+    <img height="60px" src="./assets/images/techStack/react.png">
+    <img height="60px" src="./assets/images/techStack/sql.png">
+    <img height="60px" src="./assets/images/techStack/firebase.png">
+    <img height="60px" src="./assets/images/techStack/C.png">
+    <img height="60px" src="./assets/images/techStack/Cpp.png">
+    <img height="60px" src="./assets/images/techStack/tailwind.png">
+</div>
 
 ## Github Stats
 
