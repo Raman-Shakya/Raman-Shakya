@@ -1,30 +1,57 @@
-# 💫 About Me:
-🌱 I’m currently learning Flutter<br>💬 Ask me about Python, DSA, JS
+![banner](./assets/images/github-header-image.png)
 
+# I'm Raman
+*Developer / Problem Creator and Solver*
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/raman.shakya.39501) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/raman.shak07) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raman-shakya-58a419247) 
+I am a Full Stack developer, problem solving enthusiast with various expertise in Python, React, Express, Node and many more.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Raman-Shakya&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Raman-Shakya&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Raman-Shakya&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Raman-Shakya&theme=discord&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Raman-Shakya&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
-
----
 [![](https://visitcount.itsvg.in/api?id=Raman-Shakya&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+## Github Stats
+
+<table width="100%">
+    <tr>
+        <td rowspan=3>
+        <h3 align="center"><strong>LANGUAGES</strong></h3>
+        <p align="center">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Raman-Shakya&show_icons=true&locale=en&layout=pie&bg_color=0,00233c,012d4e&title_color=5affb7&text_color=ffffff" alt="ovi" />
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="40%">
+        <h3 align="center"><strong>GITHUB STATS</strong></h3>
+        <p align="center">
+            <img align="center" src="https://github-readme-stats.vercel.app/api?username=Raman-Shakya&count_private=true&show_icons=true&theme=nightowl&bg_color=0,012d4e,00233c&title_color=5affb7&text_color=ffffff&rank_icon=github&hide=prs,issues,contribs&show=reviews,prs_merged,prs_merged_percentage" alt="GitHub Stats" />
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">
+        <h3 align="center"><strong>STREAK STATS</strong></h3>
+        <p align="center">
+            <img align="center" src="https://streak-stats.demolab.com?user=Raman-Shakya&theme=nightowl&background=0,012d4e,00233c&fire=5affb7&ring=5affb7&sideNums=ffffff&sideLabels=ffffff&dates=c56a90&currStreakNum=ffffff" alt="Streak Stats" />
+        </p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2>
+        <h3 align="center"><strong>CONTRIBUTION GRAPH</strong></h3>
+        <p align="center">
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raman-Shakya&bg_color=012d4e&&color=5affb7&line=c56a90&point=ffeb95&area=false&hide_border=false" />
+        </p>
+        </td>
+    </tr>
+</table>
+
+<h2 align="center">Connect with me</h2>
+<div align="center" >
+    <a href="mailto:raman.gwarko15@gmail.com"><img height="45px" src="./assets/images/socials/mail.png"></a>
+    <a href="https://www.linkedin.com/in/raman-shakya-58a419247/"><img height="50px" src="./assets\images\socials\linkedin.png"></a>
+    <a href="https://www.instagram.com/raman.shak07/"><img height="50px" src="./assets/images/socials/instagram.png"></a>
+    <a href="https://www.facebook.com/raman.shakya.39501/"><img height="50px" src="./assets/images/socials/facebook.png"></a>
+</div>
+
+---
