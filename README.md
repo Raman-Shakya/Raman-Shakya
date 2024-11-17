@@ -17,7 +17,7 @@ I am a Full Stack developer, problem solving enthusiast with various expertise i
 ---
 
 <h2 align="center">Tech Stack</h2>
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; align-items: center;">
+<div align="center">
     <img height="60px" src="./assets/images/techStack/python.png">
     <img height="60px" src="./assets/images/techStack/js.png">
     <img height="60px" src="./assets/images/techStack/react.png">
@@ -68,7 +68,7 @@ I am a Full Stack developer, problem solving enthusiast with various expertise i
 </table>
 
 <h2 align="center">Connect with me</h2>
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<div align="center">
     <a href="mailto:raman.gwarko15@gmail.com"><img height="45px" src="./assets/images/socials/mail.png"></a>
     <a href="https://www.linkedin.com/in/raman-shakya-58a419247/"><img height="50px" src="./assets\images\socials\linkedin.png"></a>
     <a href="https://www.instagram.com/raman.shak07/"><img height="50px" src="./assets/images/socials/instagram.png"></a>
